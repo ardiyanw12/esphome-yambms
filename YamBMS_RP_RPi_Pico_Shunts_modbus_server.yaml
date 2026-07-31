@@ -1,6 +1,6 @@
 # Updated : 2026.06.29
 # Version : 1.7.0
-# GitHub  : https://github.com/Sleeper85/esphome-yambms
+# GitHub  : https://github.com/ardiyanw12/esphome-yambms
 
 # YamBMS ( Yet another multi-BMS Merging Solution )
 
@@ -53,11 +53,11 @@ substitutions:
 # | Packages                             |
 # +--------------------------------------+
 
-# PLEASE READ : https://github.com/Sleeper85/esphome-yambms/blob/main/documents/README/YamBMS_LP_YAML.md
+# PLEASE READ : https://github.com/ardiyanw12/esphome-yambms/blob/main/documents/README/YamBMS_LP_YAML.md
 
 packages:
   remote_packages:
-    url: https://github.com/Sleeper85/esphome-yambms
+    url: https://github.com/ardiyanw12/esphome-yambms
     ref: main
     refresh: 60min
     files:

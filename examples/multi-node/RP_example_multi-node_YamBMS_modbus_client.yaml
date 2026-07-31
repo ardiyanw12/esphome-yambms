@@ -1,6 +1,6 @@
 # Updated : 2026.01.24
 # Version : 1.1.4
-# GitHub  : https://github.com/Sleeper85/esphome-yambms
+# GitHub  : https://github.com/ardiyanw12/esphome-yambms
 
 # YamBMS ( Yet another multi-BMS Merging Solution )
 
@@ -26,7 +26,7 @@
 packages:
 
   yambms_modbus_client:
-    url: https://github.com/Sleeper85/esphome-yambms
+    url: https://github.com/ardiyanw12/esphome-yambms
     ref: main
     refresh: 0s
     files:

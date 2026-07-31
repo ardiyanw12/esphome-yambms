@@ -1,7 +1,7 @@
 # YamBMS ( Yet another multi-BMS Merging Solution )
 
 [![Badge License: GPLv3](https://img.shields.io/badge/License-GPLv3-brightgreen.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Badge Version](https://img.shields.io/github/v/release/Sleeper85/esphome-yambms?include_prereleases&color=yellow&logo=DocuSign&logoColor=white)](https://github.com/Sleeper85/esphome-yambms/releases/latest)
+[![Badge Version](https://img.shields.io/github/v/release/Sleeper85/esphome-yambms?include_prereleases&color=yellow&logo=DocuSign&logoColor=white)](https://github.com/ardiyanw12/esphome-yambms/releases/latest)
 ![GitHub stars](https://img.shields.io/github/stars/Sleeper85/esphome-yambms)
 ![GitHub forks](https://img.shields.io/github/forks/Sleeper85/esphome-yambms)
 ![GitHub watchers](https://img.shields.io/github/watchers/Sleeper85/esphome-yambms)
@@ -207,4 +207,4 @@ for statistics collection. Only [@Sleeper85](https://github.com/Sleeper85) have 
 * Thanks to [@shvm](https://github.com/shvmm), [@MrPabloUK](https://github.com/MrPabloUK) and [@GHswitt](https://github.com/GHswitt) for their multiple contributions.
 * Thanks to [@Fahmula](https://github.com/Fahmula) for developing the `PYLON RS485` component.
 * Thanks to [@uksa007](https://www.patreon.com/Uksa007Codedevelopment) for the development of the first CANBUS code.
-* Thanks to all the [contributors](https://github.com/Sleeper85/esphome-yambms/graphs/contributors).
+* Thanks to all the [contributors](https://github.com/ardiyanw12/esphome-yambms/graphs/contributors).

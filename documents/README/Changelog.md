@@ -1,7 +1,7 @@
 # YamBMS changelog
 
 [![Badge License: GPLv3](https://img.shields.io/badge/License-GPLv3-brightgreen.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Badge Version](https://img.shields.io/github/v/release/Sleeper85/esphome-yambms?include_prereleases&color=yellow&logo=DocuSign&logoColor=white)](https://github.com/Sleeper85/esphome-yambms/releases/latest)
+[![Badge Version](https://img.shields.io/github/v/release/Sleeper85/esphome-yambms?include_prereleases&color=yellow&logo=DocuSign&logoColor=white)](https://github.com/ardiyanw12/esphome-yambms/releases/latest)
 ![GitHub stars](https://img.shields.io/github/stars/Sleeper85/esphome-yambms)
 ![GitHub forks](https://img.shields.io/github/forks/Sleeper85/esphome-yambms)
 ![GitHub watchers](https://img.shields.io/github/watchers/Sleeper85/esphome-yambms)
@@ -9,26 +9,26 @@
 * YamBMS 1.7.0 :
   * Partial rewrite of `yambms_core` and merging of C++ code into a single lambda in several stages with increased datas control.
   * Added LVGL display dashboard for Waveshare Touch-LCD 4.3" and 7" (Blue Navy 800x480 design)
-  * Fixed [issue 10](https://github.com/Sleeper85/esphome-yambms/issues/10) Sending CAN bus data before the end of the combination process
-  * Fixed [issue 154](https://github.com/Sleeper85/esphome-yambms/issues/154) Add `Enerkey Balancers` balance stop diff voltage setting (register 0x1A)
-  * Fixed [issue 160](https://github.com/Sleeper85/esphome-yambms/issues/160) The SOH sensor is interpreted as a battery percentage
-  * Fixed [issue 182](https://github.com/Sleeper85/esphome-yambms/issues/182) Compliance of Auto functions for YamBMS 1.7.0
-  * Fixed [issue 268](https://github.com/Sleeper85/esphome-yambms/issues/268) [Add an option] The inverter is not sending ACK CAN ID 0x305
-  * Fixed [issue 282](https://github.com/Sleeper85/esphome-yambms/issues/282) JK errors_bitmask has been removed
-  * Merged [PR 281](https://github.com/Sleeper85/esphome-yambms/pull/281) Add WS Touch-LCD-4.3B board 
-  * Merged [PR 261](https://github.com/Sleeper85/esphome-yambms/pull/261) Add LilyGo T-Connect Pro Lite board (without screen)
-  * Merged [PR 259](https://github.com/Sleeper85/esphome-yambms/pull/259) Add support for Rebulk Days
-  * Merged [PR 258](https://github.com/Sleeper85/esphome-yambms/pull/258) Auto EOC: Factor in Auto SoC Limit for battery capacity calculation
-  * Merged [PR 255](https://github.com/Sleeper85/esphome-yambms/pull/255) Add support for Auto SoC Limit
-  * Merged [PR 236](https://github.com/Sleeper85/esphome-yambms/pull/236) Switch to VictronMPPT-ESPHOME fork
-  * Merged [PR 235](https://github.com/Sleeper85/esphome-yambms/pull/235) Basen: Add "Enable communication" switch
-  * Merged [PR 200](https://github.com/Sleeper85/esphome-yambms/pull/200) Add M5Stack Tab5 with LVGL display
-  * Merged [PR 199](https://github.com/Sleeper85/esphome-yambms/pull/199) Add Ecoworthy BMS integration for YamBMS
-  * Merged [PR 194](https://github.com/Sleeper85/esphome-yambms/pull/194) Component Fault Registry & Advanced LED Control
-  * Merged [PR 178](https://github.com/Sleeper85/esphome-yambms/pull/178) Basen BMS: Add heating control
-  * Merged [PR 170](https://github.com/Sleeper85/esphome-yambms/pull/170) Add Freenove S3 board
-  * Merged [PR 162](https://github.com/Sleeper85/esphome-yambms/pull/162) PACE Sensor Fixes
-  * Merged [PR 158](https://github.com/Sleeper85/esphome-yambms/pull/158) Automatically disable shunt when connected BMSs are going offline
+  * Fixed [issue 10](https://github.com/ardiyanw12/esphome-yambms/issues/10) Sending CAN bus data before the end of the combination process
+  * Fixed [issue 154](https://github.com/ardiyanw12/esphome-yambms/issues/154) Add `Enerkey Balancers` balance stop diff voltage setting (register 0x1A)
+  * Fixed [issue 160](https://github.com/ardiyanw12/esphome-yambms/issues/160) The SOH sensor is interpreted as a battery percentage
+  * Fixed [issue 182](https://github.com/ardiyanw12/esphome-yambms/issues/182) Compliance of Auto functions for YamBMS 1.7.0
+  * Fixed [issue 268](https://github.com/ardiyanw12/esphome-yambms/issues/268) [Add an option] The inverter is not sending ACK CAN ID 0x305
+  * Fixed [issue 282](https://github.com/ardiyanw12/esphome-yambms/issues/282) JK errors_bitmask has been removed
+  * Merged [PR 281](https://github.com/ardiyanw12/esphome-yambms/pull/281) Add WS Touch-LCD-4.3B board 
+  * Merged [PR 261](https://github.com/ardiyanw12/esphome-yambms/pull/261) Add LilyGo T-Connect Pro Lite board (without screen)
+  * Merged [PR 259](https://github.com/ardiyanw12/esphome-yambms/pull/259) Add support for Rebulk Days
+  * Merged [PR 258](https://github.com/ardiyanw12/esphome-yambms/pull/258) Auto EOC: Factor in Auto SoC Limit for battery capacity calculation
+  * Merged [PR 255](https://github.com/ardiyanw12/esphome-yambms/pull/255) Add support for Auto SoC Limit
+  * Merged [PR 236](https://github.com/ardiyanw12/esphome-yambms/pull/236) Switch to VictronMPPT-ESPHOME fork
+  * Merged [PR 235](https://github.com/ardiyanw12/esphome-yambms/pull/235) Basen: Add "Enable communication" switch
+  * Merged [PR 200](https://github.com/ardiyanw12/esphome-yambms/pull/200) Add M5Stack Tab5 with LVGL display
+  * Merged [PR 199](https://github.com/ardiyanw12/esphome-yambms/pull/199) Add Ecoworthy BMS integration for YamBMS
+  * Merged [PR 194](https://github.com/ardiyanw12/esphome-yambms/pull/194) Component Fault Registry & Advanced LED Control
+  * Merged [PR 178](https://github.com/ardiyanw12/esphome-yambms/pull/178) Basen BMS: Add heating control
+  * Merged [PR 170](https://github.com/ardiyanw12/esphome-yambms/pull/170) Add Freenove S3 board
+  * Merged [PR 162](https://github.com/ardiyanw12/esphome-yambms/pull/162) PACE Sensor Fixes
+  * Merged [PR 158](https://github.com/ardiyanw12/esphome-yambms/pull/158) Automatically disable shunt when connected BMSs are going offline
 
 * YamBMS 1.6.0 :
   * New dashboards `1.6.0`
@@ -40,29 +40,29 @@
   * New `Hardware highlighted` documentation (LilyGo / Waveshare / M5Stack)
   * New readme for **LilyGo T-Connect, WS RS485-CAN and M5Stack AtomS3** boards
   * Improved documentation.
-  * Fixed [issue 83](https://github.com/Sleeper85/esphome-yambms/issues/83) Add esphome-pace-bms
-  * Fixed [issue 94](https://github.com/Sleeper85/esphome-yambms/issues/94) Multi-BMS Seplos V3 don't work
-  * Fixed [issue 96](https://github.com/Sleeper85/esphome-yambms/issues/96) Improve the SoC returned at the end of discharge
-  * Fixed [issue 100](https://github.com/Sleeper85/esphome-yambms/issues/100) Improve the BMS Seplos V1 V2 examples
-  * Fixed [issue 102](https://github.com/Sleeper85/esphome-yambms/issues/102) Improve Remaining Capacity when using a shunt
-  * Added [issue 106](https://github.com/Sleeper85/esphome-yambms/issues/106) [FEATURE REQUEST] Temperature-based current limiting
-  * Fixed [issue 108](https://github.com/Sleeper85/esphome-yambms/issues/108) [WARNING] esphome::select::Select::state` is deprecated
-  * Fixed [issue 122](https://github.com/Sleeper85/esphome-yambms/issues/122) Adjust `bms_name` in all example YAML to something unique
-  * Fixed [issue 128](https://github.com/Sleeper85/esphome-yambms/issues/128) Align the names of the shunt entities
-  * Fixed [issue 142](https://github.com/Sleeper85/esphome-yambms/issues/142) Maximum capacity needs to be increased for `JK_RS485` BMS
-  * Merged [PR 76](https://github.com/Sleeper85/esphome-yambms/pull/76) Add `Auto EOC` function
-  * Merged [PR 82](https://github.com/Sleeper85/esphome-yambms/pull/82) Add support for external balancer
-  * Merged [PR 85](https://github.com/Sleeper85/esphome-yambms/pull/85) Adding `EG4 LLV2` BMS
-  * Merged [PR 97](https://github.com/Sleeper85/esphome-yambms/pull/97) Add `Basen controller` version with talk/flow control pin
-  * Merged [PR 99](https://github.com/Sleeper85/esphome-yambms/pull/99) Basen: Use new binary sensors for charging/discharging
-  * Merged [PR 112](https://github.com/Sleeper85/esphome-yambms/pull/112) Adding `FLIP_C3` board
-  * Merged [PR 117](https://github.com/Sleeper85/esphome-yambms/pull/117) Round requested charge/discharge current to nearest integer
-  * Change [PR 119](https://github.com/Sleeper85/esphome-yambms/pull/119) Updated `Power` gauge (-10kW to 10kW)
-  * Merged [PR 133](https://github.com/Sleeper85/esphome-yambms/pull/133) Add `Studer XTM-4000` to supported inverters
-  * Merged [PR 142](https://github.com/Sleeper85/esphome-yambms/pull/142) Sub device support
-  * Merged [PR 143](https://github.com/Sleeper85/esphome-yambms/pull/143) Improved `Cut-Off charging` logic equation and documentation
-  * Merged [PR 147](https://github.com/Sleeper85/esphome-yambms/pull/147) Improved `CCL`, `DCL` and `Temp-based` current control
-  * Merged [PR 155](https://github.com/Sleeper85/esphome-yambms/pull/155) Update temperature sensor filters to reduce noise
+  * Fixed [issue 83](https://github.com/ardiyanw12/esphome-yambms/issues/83) Add esphome-pace-bms
+  * Fixed [issue 94](https://github.com/ardiyanw12/esphome-yambms/issues/94) Multi-BMS Seplos V3 don't work
+  * Fixed [issue 96](https://github.com/ardiyanw12/esphome-yambms/issues/96) Improve the SoC returned at the end of discharge
+  * Fixed [issue 100](https://github.com/ardiyanw12/esphome-yambms/issues/100) Improve the BMS Seplos V1 V2 examples
+  * Fixed [issue 102](https://github.com/ardiyanw12/esphome-yambms/issues/102) Improve Remaining Capacity when using a shunt
+  * Added [issue 106](https://github.com/ardiyanw12/esphome-yambms/issues/106) [FEATURE REQUEST] Temperature-based current limiting
+  * Fixed [issue 108](https://github.com/ardiyanw12/esphome-yambms/issues/108) [WARNING] esphome::select::Select::state` is deprecated
+  * Fixed [issue 122](https://github.com/ardiyanw12/esphome-yambms/issues/122) Adjust `bms_name` in all example YAML to something unique
+  * Fixed [issue 128](https://github.com/ardiyanw12/esphome-yambms/issues/128) Align the names of the shunt entities
+  * Fixed [issue 142](https://github.com/ardiyanw12/esphome-yambms/issues/142) Maximum capacity needs to be increased for `JK_RS485` BMS
+  * Merged [PR 76](https://github.com/ardiyanw12/esphome-yambms/pull/76) Add `Auto EOC` function
+  * Merged [PR 82](https://github.com/ardiyanw12/esphome-yambms/pull/82) Add support for external balancer
+  * Merged [PR 85](https://github.com/ardiyanw12/esphome-yambms/pull/85) Adding `EG4 LLV2` BMS
+  * Merged [PR 97](https://github.com/ardiyanw12/esphome-yambms/pull/97) Add `Basen controller` version with talk/flow control pin
+  * Merged [PR 99](https://github.com/ardiyanw12/esphome-yambms/pull/99) Basen: Use new binary sensors for charging/discharging
+  * Merged [PR 112](https://github.com/ardiyanw12/esphome-yambms/pull/112) Adding `FLIP_C3` board
+  * Merged [PR 117](https://github.com/ardiyanw12/esphome-yambms/pull/117) Round requested charge/discharge current to nearest integer
+  * Change [PR 119](https://github.com/ardiyanw12/esphome-yambms/pull/119) Updated `Power` gauge (-10kW to 10kW)
+  * Merged [PR 133](https://github.com/ardiyanw12/esphome-yambms/pull/133) Add `Studer XTM-4000` to supported inverters
+  * Merged [PR 142](https://github.com/ardiyanw12/esphome-yambms/pull/142) Sub device support
+  * Merged [PR 143](https://github.com/ardiyanw12/esphome-yambms/pull/143) Improved `Cut-Off charging` logic equation and documentation
+  * Merged [PR 147](https://github.com/ardiyanw12/esphome-yambms/pull/147) Improved `CCL`, `DCL` and `Temp-based` current control
+  * Merged [PR 155](https://github.com/ardiyanw12/esphome-yambms/pull/155) Update temperature sensor filters to reduce noise
 
 * YamBMS 1.5.8 :
   * New Dashboards `1.5.8` compatible with `CANBUS` and `RS485` inverter communication protocol
@@ -71,37 +71,37 @@
   * Added `WiFi AP`
   * `WiFi AP` and `Web Server` credentials centralized in `secrets.yaml`
   * Added `WT32-ETH01` board
-  * Fixed [issue 8](https://github.com/Sleeper85/esphome-yambms/issues/8) ETH01-EVO board - Davicom DM9051 SPI Ethernet Controller is now integrated in esphome `2025.7`
-  * Fixed [issue 24](https://github.com/Sleeper85/esphome-yambms/issues/24) [JK-PB] SoC never reaches 100%
-  * Fixed [issue 63](https://github.com/Sleeper85/esphome-yambms/issues/63) [JK RS485 component] Fix *.*_SCHEMA deprecations
-  * Merged [PR 67](https://github.com/Sleeper85/esphome-yambms/pull/67) Add options to restrict max. charge and discharge current
-  * Merged [PR 72](https://github.com/Sleeper85/esphome-yambms/pull/72) Add Pylontech RS485 inverter protocol
-  * Merged [PR 74](https://github.com/Sleeper85/esphome-yambms/pull/74) `PYLON RS485` link status, Heartbeat and Requested Force Charge
-  * Merged [PR 75](https://github.com/Sleeper85/esphome-yambms/pull/75) Round `Auto CCL` / `Auto DCL` values
-  * Merged [PR 77](https://github.com/Sleeper85/esphome-yambms/pull/77) `PYLON RS485` prevent stale data on BMS disconnect
-  * Merged [PR 80](https://github.com/Sleeper85/esphome-yambms/pull/80) BMS Modbus client: Return 0 when not online
-  * Merged [PR 81](https://github.com/Sleeper85/esphome-yambms/pull/81) Fix balance trigger voltage for Basen and Deye
+  * Fixed [issue 8](https://github.com/ardiyanw12/esphome-yambms/issues/8) ETH01-EVO board - Davicom DM9051 SPI Ethernet Controller is now integrated in esphome `2025.7`
+  * Fixed [issue 24](https://github.com/ardiyanw12/esphome-yambms/issues/24) [JK-PB] SoC never reaches 100%
+  * Fixed [issue 63](https://github.com/ardiyanw12/esphome-yambms/issues/63) [JK RS485 component] Fix *.*_SCHEMA deprecations
+  * Merged [PR 67](https://github.com/ardiyanw12/esphome-yambms/pull/67) Add options to restrict max. charge and discharge current
+  * Merged [PR 72](https://github.com/ardiyanw12/esphome-yambms/pull/72) Add Pylontech RS485 inverter protocol
+  * Merged [PR 74](https://github.com/ardiyanw12/esphome-yambms/pull/74) `PYLON RS485` link status, Heartbeat and Requested Force Charge
+  * Merged [PR 75](https://github.com/ardiyanw12/esphome-yambms/pull/75) Round `Auto CCL` / `Auto DCL` values
+  * Merged [PR 77](https://github.com/ardiyanw12/esphome-yambms/pull/77) `PYLON RS485` prevent stale data on BMS disconnect
+  * Merged [PR 80](https://github.com/ardiyanw12/esphome-yambms/pull/80) BMS Modbus client: Return 0 when not online
+  * Merged [PR 81](https://github.com/ardiyanw12/esphome-yambms/pull/81) Fix balance trigger voltage for Basen and Deye
 
 * YamBMS 1.5.7 :
   * Adapted the default `min/max` values ​​for the `Float` slider
-  * Merged [PR 53](https://github.com/Sleeper85/esphome-yambms/pull/53) Add feature `Auto Float Voltage`
+  * Merged [PR 53](https://github.com/ardiyanw12/esphome-yambms/pull/53) Add feature `Auto Float Voltage`
   * New dashboard for `Auto Float Voltage` function
   * Defining `state_class` for all YamBMS sensors
   * Set esphome `min_version` to `2025.6.0`
   * Fixed: change `Charge Status` to `Bulk` when `Force Charge` is requested
-  * Merged [PR 70](https://github.com/Sleeper85/esphome-yambms/pull/70) Dashboards compatible with `HA 2025.7`
-  * Merged [PR 70](https://github.com/Sleeper85/esphome-yambms/pull/71) Dashboard `max/min` cell voltage in color using macro
+  * Merged [PR 70](https://github.com/ardiyanw12/esphome-yambms/pull/70) Dashboards compatible with `HA 2025.7`
+  * Merged [PR 70](https://github.com/ardiyanw12/esphome-yambms/pull/71) Dashboard `max/min` cell voltage in color using macro
   * Removed all special characters in entities name + dashboards correction
 
 * YamBMS 1.5.6 :
-  * Fixed [issue 58](https://github.com/Sleeper85/esphome-yambms/issues/58) Compilation problem with `esphome 2025.5.0`
-  * Fixed [issue 55](https://github.com/Sleeper85/esphome-yambms/issues/55) New CPU frequency option
-  * Fixed [issue 65](https://github.com/Sleeper85/esphome-yambms/issues/65) JBD Circular dependency error 
-  * Fixed [issue 35](https://github.com/Sleeper85/esphome-yambms/issues/35) BMS Charging Cycles Offset
-  * Merged [PR 51](https://github.com/Sleeper85/esphome-yambms/pull/51) Support for RP2040 RPi Pico
-  * Merged [PR 56](https://github.com/Sleeper85/esphome-yambms/pull/56) Add support for Basengreen BMS
-  * Merged [PR 60](https://github.com/Sleeper85/esphome-yambms/pull/60) Fixes for new ESPHome and add of BMS Cycle Count offset
-  * Merged [PR 61](https://github.com/Sleeper85/esphome-yambms/pull/61) Set Modbus BMS values to 0 when BMS goes offline
+  * Fixed [issue 58](https://github.com/ardiyanw12/esphome-yambms/issues/58) Compilation problem with `esphome 2025.5.0`
+  * Fixed [issue 55](https://github.com/ardiyanw12/esphome-yambms/issues/55) New CPU frequency option
+  * Fixed [issue 65](https://github.com/ardiyanw12/esphome-yambms/issues/65) JBD Circular dependency error 
+  * Fixed [issue 35](https://github.com/ardiyanw12/esphome-yambms/issues/35) BMS Charging Cycles Offset
+  * Merged [PR 51](https://github.com/ardiyanw12/esphome-yambms/pull/51) Support for RP2040 RPi Pico
+  * Merged [PR 56](https://github.com/ardiyanw12/esphome-yambms/pull/56) Add support for Basengreen BMS
+  * Merged [PR 60](https://github.com/ardiyanw12/esphome-yambms/pull/60) Fixes for new ESPHome and add of BMS Cycle Count offset
+  * Merged [PR 61](https://github.com/ardiyanw12/esphome-yambms/pull/61) Set Modbus BMS values to 0 when BMS goes offline
   * New `board_ESP32-S3_Touch-LCD-4.3.yaml` board
   * New `board_ESP32-S3_Touch-LCD-7.yaml` board
   * New `board_ESP32-S3_YBoard_DJK.yaml` board
@@ -111,9 +111,9 @@
   * New `main.yaml` with LP (local packages) and RP (remote packages) versions
   * New `board.yaml` with modular UART/CAN interfaces
   * The name of the JK `bms.yaml` is no longer linked to a specific model
-  * SoC calculation is now based on remaining capacity for more accuracy (BMS only) [issues #39](https://github.com/Sleeper85/esphome-yambms/issues/39)
+  * SoC calculation is now based on remaining capacity for more accuracy (BMS only) [issues #39](https://github.com/ardiyanw12/esphome-yambms/issues/39)
   * SoH calculation is moved to BMS level (for those who do not provide this information)
-  * Improvement of the Victron SmartShunt doc [issues #38](https://github.com/Sleeper85/esphome-yambms/issues/38)
+  * Improvement of the Victron SmartShunt doc [issues #38](https://github.com/ardiyanw12/esphome-yambms/issues/38)
 
 * YamBMS 1.5.4 :
   * New low SoC corrected at each BMS level (the corrected SoC is the one transmitted to YamBMS)
@@ -130,7 +130,7 @@
   * Added `ESP32 Generic`, `LilyGo T-CAN485`, `LilyGo T-Connect` and `XIAO` boards
   * Fixed SoC logic (low SoC will be detected at BMS level and no longer at YamBMS level)
   * Simplified combination logic (removal of the combine switch) + dashboard update
-  * Check `Battery Capacity` is `> 0` before combining info (see [issue #14](https://github.com/Sleeper85/esphome-yambms/issues/14))
+  * Check `Battery Capacity` is `> 0` before combining info (see [issue #14](https://github.com/ardiyanw12/esphome-yambms/issues/14))
   * Improved alarm logic with a common `YamBMS errors bitmask` for all BMS models (see OTP vs UTP bug reported by @ChrisG)
   * Added [PR #7547](https://github.com/esphome/esphome/pull/7547) regarding publishing entities via the API
   * Removed `captive_portal` because it increases the `loop time` too much
@@ -157,9 +157,9 @@
   * New `YamBMS DEMO` YAML and firmware offered to test and discover how `YamBMS` works.
   * New management of temperature sensors (no longer limited to two sensors).
   * **@Der_Hannes** fixed the AtomS3 `black screen` issue (with **esphome > 2024.7.3**) and developed new code for display management based on the [ili9xxx](https://esphome.io/components/display/ili9xxx.html) platform.
-  * `Auto CCL/DCL` functions have been fixed to work with `JK-PB` and `new JK-B` BMS, [see this issue](https://github.com/Sleeper85/esphome-yambms/issues/11).
+  * `Auto CCL/DCL` functions have been fixed to work with `JK-PB` and `new JK-B` BMS, [see this issue](https://github.com/ardiyanw12/esphome-yambms/issues/11).
   * The `UVPR` and `OVPR` sensors are no longer used and replaced by `UVP` and `OVP` to ensure operation with all BMS.
-  * **@txubelaxu** fixed a bug in the `JK-PB RS485` component that could cause a false battery voltage value to be sent, [see this issue](https://github.com/Sleeper85/esphome-yambms/issues/10).
+  * **@txubelaxu** fixed a bug in the `JK-PB RS485` component that could cause a false battery voltage value to be sent, [see this issue](https://github.com/ardiyanw12/esphome-yambms/issues/10).
   * Improved documentation, added a `HowTo` to create its main YAML, warning about galvanic isolation.
 
 * CANBUS 2.3.7 : If there is no response from the inverter, the time before a new communication test has been reduced from `120s` to `60s`, added Victron `0x372` nbr. of modules `blocking charge/discharge`.
