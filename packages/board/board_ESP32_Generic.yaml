@@ -28,8 +28,8 @@ substitutions:
   tx_pin_2: '19'
   rx_pin_2: '18'
   # uart_esp_3
-  tx_pin_3: '41'
-  rx_pin_3: '40'
+  tx_pin_3: 'GPIO1'
+  rx_pin_3: 'GPIO3'
   # canbus_esp32_can
   tx_pin_4: '23'
   rx_pin_4: '22'
@@ -94,7 +94,7 @@ light:
 #     inverted: true
 output:
   - platform: ledc
-    pin: GPIO4
+    pin: GPIO14
     id: output_red
     inverted: true
   - platform: ledc
