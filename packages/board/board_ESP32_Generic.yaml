@@ -22,8 +22,8 @@ substitutions:
   board_name: "Generic"
   # Interfaces GPIOs
   # uart_esp_1
-  tx_pin_1: '17'
-  rx_pin_1: '16'
+  tx_pin_1: '1'
+  rx_pin_1: '3'
   # uart_esp_2
   tx_pin_2: '19'
   rx_pin_2: '18'
@@ -41,7 +41,7 @@ substitutions:
   # talk_pin
   talk_pin: '4' # ESP32: 4, ESP32-S3: 8, ESP32-C3: 10
   # LED
-  board_has_rgb: "true" # LED `RGB` flag to show functionality is available
+  board_has_rgb: "false" # LED `RGB` flag to show functionality is available
 
 
 packages:
@@ -106,16 +106,16 @@ output:
   #   pin: GPIO17
   #   id: esp_led_red
   #   inverted: true
-output:
-  - platform: ledc
-    pin: GPIO4
-    id: output_red
-    inverted: true
-  - platform: ledc
-    pin: GPIO16
-    id: output_green
-    inverted: true
-  - platform: ledc
-    pin: GPIO17
-    id: output_blue
-    inverted: true
+# output:
+#   - platform: ledc
+#     pin: GPIO4
+#     id: output_red
+#     inverted: true
+#   - platform: ledc
+#     pin: GPIO16
+#     id: output_green
+#     inverted: true
+#   - platform: ledc
+#     pin: GPIO17
+#     id: output_blue
+#     inverted: true
