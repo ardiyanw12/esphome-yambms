@@ -28,7 +28,7 @@ packages:
 # +--------------------------------------+
 
 external_components:
-  - source: github://ardiyanw/esphome-jk-bms@main
+  - source: github://ardiyanw12/esphome-jk-bms@main
     refresh: 0s
 
 jk_modbus:

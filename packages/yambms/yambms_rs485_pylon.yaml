@@ -42,7 +42,7 @@ esphome:
       name: "${yambms_name} ${rs485_name}"
 
 external_components:
-  - source: github://ardiyanw/esphome-pylontech-rs485@main
+  - source: github://ardiyanw12/esphome-pylontech-rs485@main
     refresh: 0s
 
 uart:
