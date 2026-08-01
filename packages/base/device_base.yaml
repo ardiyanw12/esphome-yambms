@@ -24,7 +24,7 @@ packages:
 
 substitutions:
   # The ID of the LED on your board used for this component
-  board_status_led_id: "esp_light"
+  board_status_led_id: "esp_light_red"
   # ID for this component instance for fault registry
   board_fault_device_id: "1"
 
