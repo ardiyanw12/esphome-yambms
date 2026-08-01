@@ -86,12 +86,12 @@ light:
   #   output: esp_led_blue
   #   id: esp_light_blue
 # light:
-  - platform: rgb
-    name: "CYD Onboard RGB LED"
-    id: esp_light
-    red: output_red
-    green: output_green
-    blue: output_blue
+  # - platform: rgb
+  #   name: "CYD Onboard RGB LED"
+  #   id: esp_light
+  #   red: output_red
+  #   green: output_green
+  #   blue: output_blue
 output:
   # ESP LED
   # - platform: gpio
