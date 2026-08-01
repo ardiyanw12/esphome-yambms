@@ -41,7 +41,7 @@ substitutions:
   # talk_pin
   talk_pin: '4' # ESP32: 4, ESP32-S3: 8, ESP32-C3: 10
   # LED
-  board_has_rgb: "RGB" # LED `RGB` flag to show functionality is available
+  board_has_rgb: "true" # LED `RGB` flag to show functionality is available
 
 
 packages:
