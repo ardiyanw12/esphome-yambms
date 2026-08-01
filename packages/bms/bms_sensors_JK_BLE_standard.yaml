@@ -34,7 +34,7 @@ ota:
 # +--------------------------------------+
 
 external_components:
-  - source: github://syssi/esphome-jk-bms@main
+  - source: github://ardiyanw/esphome-jk-bms@main
     refresh: 0s
 
 esp32_ble_tracker:
@@ -177,11 +177,11 @@ sensor:
     state_of_charge:
       id: bms${bms_id}_state_of_charge
       device_id: bms_${bms_id}
-      # name: "state of charge"
+      name: "state of charge"
     capacity_remaining:
       id: bms${bms_id}_capacity_remaining_ah
       device_id: bms_${bms_id}
-      # name: "capacity remaining"
+      name: "capacity remaining"
     full_charge_capacity:
       id: bms${bms_id}_battery_capacity
       device_id: bms_${bms_id}
@@ -189,11 +189,11 @@ sensor:
     charging_cycles:
       id: bms${bms_id}_charging_cycles_raw
       device_id: bms_${bms_id}
-      # name: "charging cycles"
+      name: "charging cycles"
     total_charging_cycle_capacity:
       id: bms${bms_id}_cycle_capacity_raw
       device_id: bms_${bms_id}
-      # name: "total charging cycle capacity"
+      name: "total charging cycle capacity"
     balancing_current:
       device_id: bms_${bms_id}
       name: "balancing current"
@@ -229,38 +229,38 @@ sensor:
       id: bms${bms_id}_cell_v_08
       device_id: bms_${bms_id}
       name: "cell voltage 08"
-    cell_voltage_9:
-      id: bms${bms_id}_cell_v_09
-      device_id: bms_${bms_id}
-      name: "cell voltage 09"
-    cell_voltage_10:
-      id: bms${bms_id}_cell_v_10
-      device_id: bms_${bms_id}
-      name: "cell voltage 10"
-    cell_voltage_11:
-      id: bms${bms_id}_cell_v_11
-      device_id: bms_${bms_id}
-      name: "cell voltage 11"
-    cell_voltage_12:
-      id: bms${bms_id}_cell_v_12
-      device_id: bms_${bms_id}
-      name: "cell voltage 12"
-    cell_voltage_13:
-      id: bms${bms_id}_cell_v_13
-      device_id: bms_${bms_id}
-      name: "cell voltage 13"
-    cell_voltage_14:
-      id: bms${bms_id}_cell_v_14
-      device_id: bms_${bms_id}
-      name: "cell voltage 14"
-    cell_voltage_15:
-      id: bms${bms_id}_cell_v_15
-      device_id: bms_${bms_id}
-      name: "cell voltage 15"
-    cell_voltage_16:
-      id: bms${bms_id}_cell_v_16
-      device_id: bms_${bms_id}
-      name: "cell voltage 16"
+    # cell_voltage_9:
+    #   id: bms${bms_id}_cell_v_09
+    #   device_id: bms_${bms_id}
+    #   name: "cell voltage 09"
+    # cell_voltage_10:
+    #   id: bms${bms_id}_cell_v_10
+    #   device_id: bms_${bms_id}
+    #   name: "cell voltage 10"
+    # cell_voltage_11:
+    #   id: bms${bms_id}_cell_v_11
+    #   device_id: bms_${bms_id}
+    #   name: "cell voltage 11"
+    # cell_voltage_12:
+    #   id: bms${bms_id}_cell_v_12
+    #   device_id: bms_${bms_id}
+    #   name: "cell voltage 12"
+    # cell_voltage_13:
+    #   id: bms${bms_id}_cell_v_13
+    #   device_id: bms_${bms_id}
+    #   name: "cell voltage 13"
+    # cell_voltage_14:
+    #   id: bms${bms_id}_cell_v_14
+    #   device_id: bms_${bms_id}
+    #   name: "cell voltage 14"
+    # cell_voltage_15:
+    #   id: bms${bms_id}_cell_v_15
+    #   device_id: bms_${bms_id}
+    #   name: "cell voltage 15"
+    # cell_voltage_16:
+    #   id: bms${bms_id}_cell_v_16
+    #   device_id: bms_${bms_id}
+    #   name: "cell voltage 16"
     cell_resistance_1:
       device_id: bms_${bms_id}
       name: "cell resistance 01"
@@ -285,30 +285,30 @@ sensor:
     cell_resistance_8:
       device_id: bms_${bms_id}
       name: "cell resistance 08"
-    cell_resistance_9:
-      device_id: bms_${bms_id}
-      name: "cell resistance 09"
-    cell_resistance_10:
-      device_id: bms_${bms_id}
-      name: "cell resistance 10"
-    cell_resistance_11:
-      device_id: bms_${bms_id}
-      name: "cell resistance 11"
-    cell_resistance_12:
-      device_id: bms_${bms_id}
-      name: "cell resistance 12"
-    cell_resistance_13:
-      device_id: bms_${bms_id}
-      name: "cell resistance 13"
-    cell_resistance_14:
-      device_id: bms_${bms_id}
-      name: "cell resistance 14"
-    cell_resistance_15:
-      device_id: bms_${bms_id}
-      name: "cell resistance 15"
-    cell_resistance_16:
-      device_id: bms_${bms_id}
-      name: "cell resistance 16"
+    # cell_resistance_9:
+    #   device_id: bms_${bms_id}
+    #   name: "cell resistance 09"
+    # cell_resistance_10:
+    #   device_id: bms_${bms_id}
+    #   name: "cell resistance 10"
+    # cell_resistance_11:
+    #   device_id: bms_${bms_id}
+    #   name: "cell resistance 11"
+    # cell_resistance_12:
+    #   device_id: bms_${bms_id}
+    #   name: "cell resistance 12"
+    # cell_resistance_13:
+    #   device_id: bms_${bms_id}
+    #   name: "cell resistance 13"
+    # cell_resistance_14:
+    #   device_id: bms_${bms_id}
+    #   name: "cell resistance 14"
+    # cell_resistance_15:
+    #   device_id: bms_${bms_id}
+    #   name: "cell resistance 15"
+    # cell_resistance_16:
+    #   device_id: bms_${bms_id}
+    #   name: "cell resistance 16"
 
   # FAKE errors_bitmask
   # Alarm management is not supported at this time
