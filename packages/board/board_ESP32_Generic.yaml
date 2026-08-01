@@ -73,49 +73,16 @@ logger:
 # | Inverter Heartbeat Light             |
 # +--------------------------------------+
 
-# light:
+light:
   # ESP Light used to see the inverter heartbeat
   # Internal : only specifying an id without a name will implicitly set this to true.
-  # - platform: binary
-  #   output: esp_led_
-  #   id: esp_light
-  # - platform: binary
-  #   output: esp_led_green
-  #   id: esp_light_green
-  # - platform: binary
-  #   output: esp_led_blue
-  #   id: esp_light_blue
-# light:
-  # - platform: rgb
-  #   name: "CYD Onboard RGB LED"
-  #   id: esp_light
-  #   red: output_red
-  #   green: output_green
-  #   blue: output_blue
-# output:
+  - platform: binary
+    output: esp_led
+    id: esp_light
+
+output:
   # ESP LED
-  # - platform: gpio
-  #   pin: GPIO4
-  #   id: esp_led_red
-  #   inverted: true
-  # - platform: gpio
-  #   pin: GPIO16
-  #   id: esp_led_green
-  #   inverted: true
-  # - platform: gpio
-  #   pin: GPIO17
-  #   id: esp_led_red
-  #   inverted: true
-# output:
-#   - platform: ledc
-#     pin: GPIO4
-#     id: output_red
-#     inverted: true
-#   - platform: ledc
-#     pin: GPIO16
-#     id: output_green
-#     inverted: true
-#   - platform: ledc
-#     pin: GPIO17
-#     id: output_blue
-#     inverted: true
+  - platform: gpio
+    pin: 2
+    id: esp_led
+    inverted: true
