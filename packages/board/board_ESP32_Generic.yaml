@@ -73,12 +73,12 @@ logger:
 # | Inverter Heartbeat Light             |
 # +--------------------------------------+
 
-light:
+# light:
   # ESP Light used to see the inverter heartbeat
   # Internal : only specifying an id without a name will implicitly set this to true.
   # - platform: binary
-  #   output: esp_led_red
-  #   id: esp_light_red
+  #   output: esp_led_
+  #   id: esp_light
   # - platform: binary
   #   output: esp_led_green
   #   id: esp_light_green
@@ -92,7 +92,7 @@ light:
   #   red: output_red
   #   green: output_green
   #   blue: output_blue
-output:
+# output:
   # ESP LED
   # - platform: gpio
   #   pin: GPIO4
