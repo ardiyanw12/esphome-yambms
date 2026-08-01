@@ -22,8 +22,8 @@ substitutions:
   board_name: "Generic"
   # Interfaces GPIOs
   # uart_esp_1
-  tx_pin_1: '1'
-  rx_pin_1: '3'
+  tx_pin_1: 'GPIO1'
+  rx_pin_1: 'GPIO3'
   # uart_esp_2
   tx_pin_2: '19'
   rx_pin_2: '18'
