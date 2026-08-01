@@ -76,10 +76,10 @@ logger:
 light:
   # ESP Light used to see the inverter heartbeat
   # Internal : only specifying an id without a name will implicitly set this to true.
-  - platform: binary
-    output: esp_led
-    id: esp_light
-    # Internal : true
+  # - platform: binary
+  #   output: esp_led
+  #   id: esp_light
+  #   # Internal : true
   - platform: binary
     output: esp_led_red
     id: esp_light_red
@@ -94,10 +94,10 @@ light:
     # Internal : true
 output:
   # ESP LED
-  - platform: gpio
-    pin: 2
-    id: esp_led
-    inverted: true
+  # - platform: gpio
+  #   pin: 2
+  #   id: esp_led
+  #   inverted: true
   - platform: gpio
     pin: GPIO4
     id: esp_led_red
