@@ -79,7 +79,7 @@ light:
   - platform: binary
     output: esp_led
     id: esp_light
-    Internal : true
+    # Internal : true
 output:
   # ESP LED
   - platform: gpio
