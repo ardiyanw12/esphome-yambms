@@ -1,10 +1,10 @@
 # YamBMS - Waveshare ESP32-S3-RS485-CAN
 
 [![Badge License: GPLv3](https://img.shields.io/badge/License-GPLv3-brightgreen.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Badge Version](https://img.shields.io/github/v/release/Sleeper85/esphome-yambms?include_prereleases&color=yellow&logo=DocuSign&logoColor=white)](https://github.com/Sleeper85/esphome-yambms/releases/latest)
-![GitHub stars](https://img.shields.io/github/stars/Sleeper85/esphome-yambms)
-![GitHub forks](https://img.shields.io/github/forks/Sleeper85/esphome-yambms)
-![GitHub watchers](https://img.shields.io/github/watchers/Sleeper85/esphome-yambms)
+[![Badge Version](https://img.shields.io/github/v/release/ardiyanw12/esphome-yambms?include_prereleases&color=yellow&logo=DocuSign&logoColor=white)](https://github.com/ardiyanw12/esphome-yambms/releases/latest)
+![GitHub stars](https://img.shields.io/github/stars/ardiyanw12/esphome-yambms)
+![GitHub forks](https://img.shields.io/github/forks/ardiyanw12/esphome-yambms)
+![GitHub watchers](https://img.shields.io/github/watchers/ardiyanw12/esphome-yambms)
 
 > [!IMPORTANT]  
 > This board uses a `flow_control_pin`, also called a `talk_pin` in the YamBMS documentation and used to manage the direction of data transmission for RS485 transceiver that do not handle this automatically. This `talk_pin` must be specified in your YAML.

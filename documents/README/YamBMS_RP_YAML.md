@@ -1,10 +1,10 @@
 # YamBMS - How to create your YamBMS Remote Packages YAML
 
 [![Badge License: GPLv3](https://img.shields.io/badge/License-GPLv3-brightgreen.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Badge Version](https://img.shields.io/github/v/release/Sleeper85/esphome-yambms?include_prereleases&color=yellow&logo=DocuSign&logoColor=white)](https://github.com/Sleeper85/esphome-yambms/releases/latest)
-![GitHub stars](https://img.shields.io/github/stars/Sleeper85/esphome-yambms)
-![GitHub forks](https://img.shields.io/github/forks/Sleeper85/esphome-yambms)
-![GitHub watchers](https://img.shields.io/github/watchers/Sleeper85/esphome-yambms)
+[![Badge Version](https://img.shields.io/github/v/release/ardiyanw12/esphome-yambms?include_prereleases&color=yellow&logo=DocuSign&logoColor=white)](https://github.com/ardiyanw12/esphome-yambms/releases/latest)
+![GitHub stars](https://img.shields.io/github/stars/ardiyanw12/esphome-yambms)
+![GitHub forks](https://img.shields.io/github/forks/ardiyanw12/esphome-yambms)
+![GitHub watchers](https://img.shields.io/github/watchers/ardiyanw12/esphome-yambms)
 
 > [!TIP]
 > Not sure which YAML to choose ? ... [YamBMS_Remote_Packages_example.yaml](../../YamBMS_Remote_Packages_example.yaml)
@@ -88,7 +88,7 @@ You can import multiple remote packages (3 in this example) without having to re
 
 ```YAML
   remote_packages:
-    url: https://github.com/Sleeper85/esphome-yambms
+    url: https://github.com/ardiyanw12/esphome-yambms
     ref: main
     refresh: 0s
     files:
@@ -361,7 +361,7 @@ Take the time to configure `YamBMS` correctly according to your battery chemistr
 
 ```YAML
   yambms:
-    url: https://github.com/Sleeper85/esphome-yambms
+    url: https://github.com/ardiyanw12/esphome-yambms
     ref: main
     refresh: 0s
     files:
@@ -411,7 +411,7 @@ You can keep the default configuration and adapt the `canbus` node on which the 
 
 ```YAML
   canbus:
-    url: https://github.com/Sleeper85/esphome-yambms
+    url: https://github.com/ardiyanw12/esphome-yambms
     ref: main
     refresh: 0s
     files:
@@ -438,7 +438,7 @@ You can keep the default configuration and adapt the `uart` port on which the co
 
 ```YAML
   rs485_pylon:
-    url: https://github.com/Sleeper85/esphome-yambms
+    url: https://github.com/ardiyanw12/esphome-yambms
     ref: main
     refresh: 0s
     files:
@@ -457,7 +457,7 @@ The `debug` package will add useful information to refer to if problems occur.
 
 ```YAML
   debug:
-    url: https://github.com/Sleeper85/esphome-yambms
+    url: https://github.com/ardiyanw12/esphome-yambms
     ref: main
     refresh: 0s
     files:

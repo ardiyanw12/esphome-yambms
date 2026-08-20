@@ -1,10 +1,10 @@
 # YamBMS - LilyGo T-Connect
 
 [![Badge License: GPLv3](https://img.shields.io/badge/License-GPLv3-brightgreen.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Badge Version](https://img.shields.io/github/v/release/Sleeper85/esphome-yambms?include_prereleases&color=yellow&logo=DocuSign&logoColor=white)](https://github.com/Sleeper85/esphome-yambms/releases/latest)
-![GitHub stars](https://img.shields.io/github/stars/Sleeper85/esphome-yambms)
-![GitHub forks](https://img.shields.io/github/forks/Sleeper85/esphome-yambms)
-![GitHub watchers](https://img.shields.io/github/watchers/Sleeper85/esphome-yambms)
+[![Badge Version](https://img.shields.io/github/v/release/ardiyanw12/esphome-yambms?include_prereleases&color=yellow&logo=DocuSign&logoColor=white)](https://github.com/ardiyanw12/esphome-yambms/releases/latest)
+![GitHub stars](https://img.shields.io/github/stars/ardiyanw12/esphome-yambms)
+![GitHub forks](https://img.shields.io/github/forks/ardiyanw12/esphome-yambms)
+![GitHub watchers](https://img.shields.io/github/watchers/ardiyanw12/esphome-yambms)
 
 > [!IMPORTANT]  
 > Make sure to order the version with **3x RS485** and **1x CAN**.
