@@ -156,7 +156,7 @@ substitutions:
 packages:
   remote_packages:
     url: https://github.com/ardiyanw12/esphome-yambms
-    ref: main
+    ref: v0-1
     refresh: 60min
     files:
 
@@ -167,7 +167,7 @@ packages:
 
       # - path: 'packages/board/board_ESP32_Generic.yaml'
       # - path: 'packages/board/board_ESP32_Atom-Lite.yaml'
-      # - path: 'packages/board/board_ESP32_DevKit-V1.yaml'
+      - path: 'packages/board/board_ESP32_DevKit-V1.yaml'
       # - path: 'packages/board/board_ESP32_EVB.yaml'
       # - path: 'packages/board/board_ESP32_iBMS_CAN_RS485_V3.3.yaml'
       # - path: 'packages/board/board_ESP32_LilyGo-T-CAN485.yaml'
@@ -179,7 +179,7 @@ packages:
       # - path: 'packages/board/board_ESP32-S3_AtomS3.yaml'
       # - path: 'packages/board/board_ESP32-S3_AtomS3R.yaml'
       # - path: 'packages/board/board_ESP32-S3_DevKitC-1_LED-38.yaml'
-      - path: 'packages/board/board_ESP32-S3_DevKitC-1_LED-48.yaml'
+      # - path: 'packages/board/board_ESP32-S3_DevKitC-1_LED-48.yaml'
       # - path: 'packages/board/board_ESP32-S3_LilyGo-T-Connect.yaml'
       # - path: 'packages/board/board_ESP32-S3_LilyGo-T-Connect-Pro.yaml'
       # - path: 'packages/board/board_ESP32-S3_WS-ETH.yaml'
@@ -189,9 +189,9 @@ packages:
       # - path: 'packages/board/board_ESP32-S3_XIAO.yaml'
       # - path: 'packages/board/board_ESP32-S3_YBoard.yaml'
 
-      #   vars:
-      #     server_status_led_id: 'virtual_status_light' # led used to show status. Default = esp_light, set specific led or set to 'virtual_status_light' to disable
-      #     network_status_led_id: 'virtual_status_light' # led used to show status. Default = esp_light, set specific led or set to 'virtual_status_light' to disable
+        vars:
+          server_status_led_id: 'virtual_status_light' # led used to show status. Default = esp_light, set specific led or set to 'virtual_status_light' to disable
+          network_status_led_id: 'virtual_status_light' # led used to show status. Default = esp_light, set specific led or set to 'virtual_status_light' to disable
 
   # +------------------------------------------------------------------------------+
   # | >>> Board Display
@@ -278,7 +278,7 @@ packages:
           # Maximum cell charging cycles is used to calculate the battey SoH.
           # MB31=8000.0, LF280K v3=8000.0, LF280K v2=6000.0, LF280=3000.0 (decimal is required)
           bms_cell_max_cycles: '6000.0'
-          bms_status_led_id: 'esp_light' # LED used to show status; default = esp_light, comment out to disable
+          bms_status_led_id: 'battery_light' # LED used to show status; default = esp_light, comment out to disable
       # BMS 2
       # - path: 'packages/bms/bms_combine_JK_BLE_standard.yaml'
       #   vars:
@@ -329,7 +329,7 @@ packages:
           rs485_uart_id: 'uart_esp_3' # UART interface to which your inverter is connected
           rs485_uart_baud_rate: '9600'
           rs485_update_timeout: '10s'
-          rs485_status_led_id: 'esp_light' # LED used to show status; default = esp_light, comment out to disable
+          rs485_status_led_id: 'inverter_light' # LED used to show status; default = esp_light, comment out to disable
 
 
 
