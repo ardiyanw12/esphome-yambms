@@ -95,14 +95,14 @@ output:
     id: esp_led
     inverted: true
   - platform: gpio
-    pin: 36
+    pin: 32
     id: battery_led
     inverted: true
   - platform: gpio
-    pin: 39
+    pin: 33
     id: inverter_led
     inverted: true
   - platform: gpio
-    pin: 34
+    pin: 27
     id: power_led
     inverted: true
