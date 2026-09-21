@@ -363,7 +363,7 @@ interval:
             auto call = led->make_call();
             call.set_state(target_state);
             if (target_state) {
-              call.set_brightness(target_bri);
+              call.set_brightness_if_supported(target_bri);
               if (${board_has_rgb}) call.set_rgb(target_r, target_g, target_b);
             }
             call.perform();

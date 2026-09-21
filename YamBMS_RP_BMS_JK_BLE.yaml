@@ -157,7 +157,7 @@ packages:
   remote_packages:
     url: https://github.com/ardiyanw12/esphome-yambms
     ref: v0-1
-    refresh: 60min
+    refresh: 0s
     files:
 
   # +------------------------------------------------------------------------------+

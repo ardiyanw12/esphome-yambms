@@ -87,6 +87,7 @@ light:
   - platform: binary
     output: power_led
     id: power_light
+    restore_mode: ALWAYS_ON # Power indicator turns on when the light initializes
 output:
   # ESP LED
   - platform: gpio
