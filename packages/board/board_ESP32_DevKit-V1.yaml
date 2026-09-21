@@ -97,12 +97,12 @@ output:
   - platform: gpio
     pin: 32
     id: battery_led
-    inverted: true
+    inverted: false
   - platform: gpio
     pin: 33
     id: inverter_led
-    inverted: true
+    inverted: false
   - platform: gpio
     pin: 27
     id: power_led
-    inverted: true
+    inverted: false
