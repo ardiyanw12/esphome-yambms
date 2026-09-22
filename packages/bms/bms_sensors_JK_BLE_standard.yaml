@@ -43,9 +43,10 @@ esp32_ble_tracker:
   on_ble_advertise:
     then:
       - lambda: |-
-          if (x.get_name().rfind("JK-", 0) == 0 || x.get_name().rfind("JK_", 0) == 0) {
+          auto name = x.get_name();
+          if (name.find("JK-") == 0 || name.find("JK_") == 0) {
             ESP_LOGI("ble_adv", "New JK-BMS found");
-            ESP_LOGI("ble_adv", "  Name: %s", x.get_name().c_str());
+            ESP_LOGI("ble_adv", "  Name: %s", name.c_str());
             ESP_LOGI("ble_adv", "  MAC address: %s", x.address_str().c_str());
             ESP_LOGD("ble_adv", "  Advertised service UUIDs:");
             for (auto uuid : x.get_service_uuids()) {
